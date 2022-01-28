@@ -1,0 +1,433 @@
+html, body{
+	height: 100%;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	line-height: 25px;
+	color: #78909c;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	text-transform: uppercase;
+}
+a:hover{
+	text-decoration: none;
+}
+.dart-btn{
+	color: #ffffff;
+  	border-radius: 5px;
+  	background-color: rgb(6, 30, 55);
+  	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.059); 
+  	width: 150px;
+  	height: 55px; 
+  	display: block;
+  	text-decoration: none;
+  	line-height: 55px;
+  	text-align: center;
+  	font-weight: 700;
+  	text-transform: uppercase;
+}
+.hero-area{
+  /* background-image: linear-gradient( 143deg, rgb(0,184,212) 0%, rgb(29,233,182) 100%),  url("../images/hero_bg.jpg"); */
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+  max-height: 750px;
+	position: relative;
+	background-image: url("../images/hero_bg.jpg");
+	z-index: 1;
+ 
+}
+.hero-area:after{
+	background-image: linear-gradient( 143deg, rgb(0,184,212) 0%, rgb(29,233,182) 100%);
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	opacity: 0.902;
+}
+
+.dart-logo > img {
+    display: inline-block;
+    height: auto;
+    margin-right: 13px;
+    vertical-align: top;
+}
+.dart-logo {
+    color: #ffffff;
+    display: block;
+}
+.dart-logo > h4 {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1;
+}
+.hero-content {
+    color: #ffffff;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.dart-menu {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.dart-menu li {
+    display: inline-block;
+}
+.dart-menu li a {
+    color: #ffffff;
+    display: block;
+    font-weight: 800;
+    padding: 0 10px;
+}
+.dart-btn.sgin-up-btn.text-right {
+
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+    display: block;
+    float: right;
+    height: 23px;
+    line-height: 23px;
+    width: 78px;
+    border: 1px solid #ffffff;
+}
+.hero-content-left > h1 {
+    color: #ffffff;
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 1.821;
+}
+.hero-button > a {
+    display: inline-block;
+    margin: 0 20px;
+} 
+.about-content-heading > h2, .services-headding > h2, .team-area-heading > h2, .contact-area-heading > h2 {
+    color: rgb(5, 30, 55);
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.about-content-heading > h4 {
+    color: rgb(176, 190, 197);
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.about-content-heading > p, .services-headding > p, .team-area-heading > p, .contact-area-heading > p {
+    color: rgb(176, 190, 197);
+    line-height: 1.667;
+    margin: 0 auto 20px;
+    max-width: 555px;
+    text-align: center;
+    width: 100%;
+}
+.about-avatar i.fa {
+    color: rgb(179, 136, 255);
+    font-size: 80px;
+    line-height: 1;
+}
+.about-card > h4 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.25;
+    margin: 20px 0;
+}
+.about-card > p {
+    color: rgb(120, 144, 156);
+    line-height: 1.333;
+    margin-bottom: 20px;
+}
+.dart-btn.about-btn {
+    background-color: rgb(29, 233, 182);
+    margin: 0 auto;
+}
+.col-md-12.btn-div {
+    margin: 20px 0;
+}
+.info-cell-item {
+    background-color: rgb(128, 216, 255);
+    color: #ffffff;
+    float: left;
+    height: 150px;
+    max-width: 400px;
+    position: relative;
+    width: 25%;
+}
+.info-cell-item.item-2{
+    background-color: #82b1ff;
+}
+.info-cell-item.item-3{
+    background-color: #b388ff;
+}
+.info-cell-item.item-4{
+    background-color: #ea80fc;
+}
+
+.info-cell-icon i.fa {
+    color: rgb(128, 216, 255);
+    font-size: 30px;
+    line-height: 60px;
+    text-align: center;
+}
+.info-cell-icon {
+    background-color: #ffff;
+    border-radius: 50%;
+    clear: both;
+    display: inline-block;
+    height: 60px;
+    text-align: center;
+    width: 60px;
+}
+.icon-2 i.fa{
+	color: #82b1ff
+}
+.icon-3 i.fa{
+	color: #b388ff
+}
+.icon-4 i.fa{
+	color: #ea80fc
+}
+.info-cell-text {
+    clear: both;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    height: 60px;
+    line-height: 1.25;
+    text-align: left;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+.info-cell-item-content {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+.info-cell-area{ 
+	text-align: center;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#80d8ff+0,ea80fc+100 */
+background: rgb(128,216,255); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(128,216,255,1) 0%, rgba(234,128,252,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(128,216,255,1) 0%,rgba(234,128,252,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(128,216,255,1) 0%,rgba(234,128,252,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80d8ff', endColorstr='#ea80fc',GradientType=1 ); /* IE6-9 */
+}
+
+.panel.dart-panel {
+    border: none;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
+    margin: 0 auto 15px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.dart-panel-heading{
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.051);
+  width: 100%;
+  max-width: 800px;
+  height: 50px;
+}
+
+.dart-panel-title a{
+  color: rgb(6, 30, 55);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 30px;
+}
+.dart-panel-body{ 
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.039); 
+  max-width: 800px;
+  width: 100%;
+  min-height: 190px; 
+}
+.dart-panel-body > p {  
+  color: rgb(6, 30, 55);
+  line-height: 1.667;
+  text-align: left; 
+  max-width: 467px;
+  display: inline-block;
+  margin-left: 10px;
+}
+.dart-panel-body > img{ 
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+  max-width: 250px;
+  max-height: 155px; 
+  float: left;
+  margin-right: 20px;
+
+}
+
+.dart-panel-title i.fa {
+    margin-right: 20px;
+}
+.arrowdown {
+    display: inline;
+    float: right;
+}
+
+.review-content-left > h2 {
+    font-size: 45px;
+    line-height: 1.3;
+}
+.review-area {
+    background-image: url("../images/customer_bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    position: relative;
+    z-index: 1;
+}
+.review-area::after {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1de9b6+0,00b4f0+100&0.98+0,1+100 */
+background: -moz-linear-gradient(left, rgba(29,233,182,0.98) 0%, rgba(0,180,240,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(29,233,182,0.98) 0%,rgba(0,180,240,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(29,233,182,0.98) 0%,rgba(0,180,240,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa1de9b6', endColorstr='#00b4f0',GradientType=1 ); /* IE6-9 */
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.95;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.review-content-left > h2 {
+}
+.review-text {
+    font-weight: 600;
+    line-height: 1.359;
+    margin-bottom: 40px;
+}
+.customer-avatar {
+    display: inline-block;
+    height: 60px;
+    margin-top: -30px;
+    min-width: 61px;
+    position: absolute;
+    top: 50%;
+    vertical-align: middle;
+}
+.customer-avatar > img {
+    border-radius: 50%;
+}
+.customer-comment {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.06);
+    color: rgb(120, 144, 156);
+    display: block;
+    float: right;
+    line-height: 1.55555;
+    max-width: 650px;
+    padding: 20px;
+    width: 85%;
+}
+.customer-comment-box {
+    height: auto;
+    margin: 30px 0;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.customer-comment > h5 {
+    color: rgb(6, 30, 55);
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.389;
+    margin-bottom: 10px;
+}
+
+.dart-form .form-control {
+    border: 1px solid rgb(6, 30, 55);
+    border-radius: 5px;
+    color: rgb(6, 30, 55);
+    max-height: 48px;
+    max-width: 278px;
+    width: 100%;
+}
+
+.dart-form textarea.form-control {
+  width: 100%;
+  max-width: 598px;
+  height: auto;
+  max-height: 148px;
+}
+
+.dart-form {
+    margin: 0 auto;
+    max-width: 600px;
+    width: 100%;
+}
+.checkbox {
+    width: 50%;
+}
+.submit-btn-box.text-center {
+    display: block;
+    float: right;
+    width: 50%;
+}
+.submit-btn-box {
+    display: inline-block;
+    float: right;
+    width: 50%;
+}
+button.dart-btn {
+    float: right;
+}
+
+.footer-area { 
+	background-color: #061e37;
+	height: auto;
+  	max-height: 300px;
+
+}
+
+.privacy-menu > a {
+    color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    font-size: 15px;
+    line-height: 1.6666;
+    padding: 5px 20px;
+    text-align: left;
+}
+.footer-top {
+    margin-bottom: 25px;
+    min-height: 40px;
+}
+.privacy-menu a.text-right {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    display: inline-block;
+    float: right;
+    margin-right: 16px;
+}
+
+
+
+
+
+
+
+
